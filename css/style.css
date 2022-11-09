@@ -58,3 +58,31 @@ body{
     padding: 0.5% 2% 0.5% 2%;
     background-color: transparent;color: black;border: 1px solid black;
 }
+
+
+#featureText1 {
+    position: relative;
+    top: 20px;
+    text-align: center;
+    font-size: x-large;
+}
+
+#featureText2, #featureText3 {
+    text-align: center;
+    font-size: small;
+    position: relative;
+    top: 20px;
+}
+
+#keyFeatures:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    filter:brightness(15%);
+    opacity:1;
+    height: 100%;
+    width: 85%;
+    background-image: url(../img/feature-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+}
