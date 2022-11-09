@@ -11,7 +11,7 @@ body{
     width: 85%;
     background-image: url('../img/home-banner.jpg');
     background-position: center center;
-    background-size: cover;
+    background-size: contain;
 }
 
 #bannerText1 {
@@ -91,13 +91,13 @@ body{
     content: ' ';
     display: block;
     position: absolute;
-    filter:brightness(15%);
-    opacity:1;
+    /*filter:brightness(100%);*/
+    /*opacity:1;*/
     height: 100%;
     width: 85%;
     background-image: url(../img/volunteer-bg.jpg);
-    background-position: center center;
-    background-size: cover;
+    background-size: contain;
+    background-position: center;
 }
 
 #volunteerText1 {
@@ -118,4 +118,14 @@ body{
     font-size: small;
     position: relative;
     top: 20px;
+}
+
+::placeholder {
+    color: white;
+    opacity: 0.9;
+}
+
+#form1 {
+    position: relative;
+    margin-top: 20px;
 }
