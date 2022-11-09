@@ -86,3 +86,36 @@ body{
     background-position: center center;
     background-size: cover;
 }
+
+#volunteerYourself:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    filter:brightness(15%);
+    opacity:1;
+    height: 100%;
+    width: 85%;
+    background-image: url(../img/volunteer-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+#volunteerText1 {
+    position: relative;
+    top: 20px;
+    text-align: center;
+    font-size: x-large;
+}
+
+#volunteerText2 {
+    text-align: center;
+    font-size: small;
+    position: relative;
+    top: 20px;
+}
+#volunteerText3 {
+    text-align: center;
+    font-size: small;
+    position: relative;
+    top: 20px;
+}
